@@ -1,0 +1,65 @@
+
+
+
+
+	Code: 
+             //p3.html 
+       <!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>CSS Style</title> 
+    <style>     body {             background-image: url(q.jpg);             background-repeat: no-repeat;             background-size:cover; 
+            font-family: Arial, sans-serif;     
+        } 
+ 
+        p { 
+            font-size: 25px; 
+            font-family: 'Georgia', serif;             color: darkslategray; 
+        }         a:link {             color: blue;             text-decoration: none; 
+        } 
+        a:visited { 
+            color: purple; 
+        } 
+        a:hover {             color: red; 
+            text-decoration: underline; 
+        } 
+        a:active { 
+            color: orange; 
+        } 
+        .c1{cursor: wait;} 
+
+ 
+	        .c2{cursor: pointer;} 
+        .c3{cursor: progress;} 
+        .c4{cursor: help;} 
+        .c5{cursor: grab;} 
+        #p1{font-size:25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
+    </style> 
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+</head> 
+<body> 
+     <h1 style="font-family: 'Courier New', monospace; color: red; "> 
+       CSS(Inline,Internal,External)     </h1> 
+     <h2 style="font-style: italic; color: rgb(120, 120, 148);">This heading uses inline CSS with italic font</h2> 
+     <h2 style="font-style: normal; color: rgb(0, 128, 28); text-align: left;">This heading uses inline CSS with normal font</h2> 
+      <h2 style="font-style: oblique; color: rgb(79, 128, 0); text-align: right;">This heading uses inline CSS with oblique font</h2> 
+     <p id="p1">This paragraph uses <b>internal CSS</b> for font and color settings.</p> 
+     <p>Check out this <a class="c1" href="https://www.google.com/" >Google Link</a>.</p> 
+     <p >Check out this <a class="c2" href="https://www.youtube.com/" >Youtube Link</a>.</p> 
+     <p >Check out this <a class="c3" href="https://www.facebook.com/" 
+>Facebook Link</a>.</p> 
+      <p >Check out this <a class="c4" href="https://www.facebook.com/" >linkedin Link</a>.</p> 
+       <p >Check out this <a class="c5" 
+href="https://www.facebook.com/">Instagram Link</a>.</p> 
+ 
+</body> 
+</html> 
+ 
+//styles.css 
+ 
+h1, h2 { 
+    text-align: center; 
+    border-bottom: 2px solid black;     padding-bottom: 5px;     background-color: rgba(255, 255, 255, 0.6); 
+} 
+ 
